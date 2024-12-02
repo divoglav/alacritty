@@ -11,9 +11,19 @@ opacity = 0.75
 # blur = true
 
 [font]
-normal.family = "Hack Nerd Font"
+normal.family = "JetBrainsMono Nerd Font"
+size = 11
 
-# Catppuccin
+[keyboard]
+bindings = [
+  # Disable < Ctrl + >
+  { key = "Equals", mods = "Control", action = "None" },
+
+  # Disable < Ctrl - >
+  { key = "Minus", mods = "Control", action = "None" },
+]
+
+# Colorscheme: Catppuccin
 
 [colors.primary]
 background = "#171421"
